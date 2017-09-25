@@ -3,7 +3,7 @@
 
 #arrays
 fav_colours = ["blue","green","black","navy"]
-ages = [55,29,20,31,25]
+ages = [34,55,29,20,31,25]
 coin_flips = ["heads", "not heads", "not heads", "heads", "heads"]
 artists = ["band1","band2","Pink Floyd"]
 colors = [:blue, :green , :black, :navy ]
@@ -52,6 +52,29 @@ puts cities[:Rome]
 puts "I think #{artists[0]} is great"
 puts "I think #{artists[1]} is okay"
 puts "I think #{artists[2]} is awesome"
+
+#exercise 3
+puts artists[0]
+puts artists[1]
+puts "They Live came out in #{ movies[:They_Live] }"
+puts "The Matrix came out in #{ movies[:The_Matrix] }"
+puts "The Usual Suspects came out in #{ movies[:The_Usual_Suspects] }"
+ages_s = ages.sort
+ages_r = ages_s.reverse
+print ages_r
+print "\n"
+movies[:Beauty_and_the_beast] = years=[1991,2017]
+print movies[:Beauty_and_the_beast][0]
+print "\n"
+ 
+
+
+
+
+
+
+
+
 
 
 
