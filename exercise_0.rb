@@ -23,21 +23,21 @@ definitions = {
 }
 
 movies = {
-  :They_Live => "1988"
-  :The_Matrix => "1999"
+  :They_Live => "1988",
+  :The_Matrix => "1999",
   :The_Usual_Suspects => "1995"
 }
 
 cities = {
-  :London => "8.7 Million"
-  :Paris => "10 Million"
-  :Rome = > "2.2 Million"
+  :London => "8.7 Million",
+  :Paris => "10 Million",
+  :Rome => "2.2 Million"
 }
 
-names{
-  :Tom => 25
-  :Timmy => 27
-  :John => 41
+names = {
+  :Tom => 25,
+  :Timmy => 27,
+  :John => 41,
   :Steven => 45
 }
 
