@@ -1,7 +1,9 @@
 
+#exercise 0
+
 #arrays
 fav_colours = ["blue","green","black","navy"]
-ages = [31,36,40,55]
+ages = [55,29,20,31,25]
 coin_flips = ["heads", "not heads", "not heads", "heads", "heads"]
 artists = ["band1","band2","band3"]
 colors = [:blue, :green , :black, :navy ]
@@ -34,10 +36,13 @@ names = {
   :Steven => 45
 }
 
-
-
-
-
+#exercise 1
+print "#{ coin_flips } \n"
+print "#{ fav_colours[0] } \n"
+print "#{ ages.sort } \n"
+ages.push(0)
+print "#{ ages } \n"
+print "#{ movies[:The_Matrix] } \n"
 
 
 
