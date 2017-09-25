@@ -5,7 +5,7 @@
 fav_colours = ["blue","green","black","navy"]
 ages = [55,29,20,31,25]
 coin_flips = ["heads", "not heads", "not heads", "heads", "heads"]
-artists = ["band1","band2","band3"]
+artists = ["band1","band2","Pink Floyd"]
 colors = [:blue, :green , :black, :navy ]
 
 #hashes
@@ -44,9 +44,14 @@ ages.push(0)
 print "#{ ages } \n"
 print "#{ movies[:The_Matrix] } \n"
 
-
-
-
+#exercise 2
+puts fav_colours[-1]
+cities[:Montreal] = "2 Million"
+reverse_coin_flips = coin_flips.reverse
+puts cities[:Rome]
+puts "I think #{artists[0]} is great"
+puts "I think #{artists[1]} is okay"
+puts "I think #{artists[2]} is awesome"
 
 
 
