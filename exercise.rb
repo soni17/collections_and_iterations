@@ -145,12 +145,97 @@ print fav_colours
 puts " "
 
 
+#exercise 6
+puts "--------------Exercise 6-----------------"
+
+movies_by_year = {
+
+  ":1999" => ["The Matrix","Star Wars: Episode 1","The Mummy"],
+  ":2009" => ["Avatar","Star Trek","District 9"],
+  ":2019" => ["How to train your dragon 3","Toy Story 4","Star Wars: Episode 9"]
+
+}
+
+require "pp"
+
+puts "Movies by year hash:"
+pp movies_by_year
+
+puts " "
+
+buttons = [  [1,2,3] , [4,5,6] , [7,8,9] , ['*',0,'#']  ]
+pp buttons
+puts buttons[0]
+
+puts " "
+
+countries = []
+
+canada = {:name=>'Canada',:continent=>'North America',:island=>'no'}
+france = {:name=>'France',:continent=>'Europe',:island=>'no'}
+australia = {:name=>'Australia',:continent=>'Oceania',:island=>'yes'}
+
+countries.push(canada)
+countries.push(france)
+countries.push(australia)
+
+pp countries
 
 
+puts "--------------Exercise 6/part2-----------------"
+puts " "
+
+for i in 1..20
+  puts "#{i}-I wll not skateboard in the halls"
+end
+
+puts " "
+
+arr = []
+for i in 1..20
+  arr.push("#{i}-I wll not skateboard in the halls")
+end
+
+pp arr
+
+numFifty = []
+for i in 1..50
+  numFifty.push(i)
+end
+
+pp numFifty
+
+sum = 0
+numFifty.each do |item|
+  sum=sum+item
+end
+
+puts " "
+puts sum
+puts " "
 
 
+numTriple = []
+for i in 1..50
+  numTriple.push(i,i,i)
+end
+
+pp numTriple
 
 
+notIslands = []
+countries.each do |k|
+  if (k[:island]=='no')
+    notIslands.push(k)
+  end
+end
+
+puts "countries array"
+pp countries
+puts " "
+
+puts "notIslands array"
+pp notIslands
 
 
 
