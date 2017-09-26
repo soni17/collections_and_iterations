@@ -92,11 +92,64 @@ coin_flips.each do |val|
 end
 puts "flipped heads #{counter} times"
 
-
 artists.delete_at(1)
 
-
 cities[:Rome] = "5 Million"
+
+
+#exercise 5
+puts "--------------Exercise 5-----------------"
+cities = {
+  :London => 8.7,
+  :Paris => 10,
+  :Rome => 2.2
+}
+
+puts " "
+
+total_population = cities[:London] + cities[:Paris] + cities[:Rome]
+puts "Total population of all cities is: #{total_population}"
+
+puts " "
+
+puts "#{:Tom} is young"
+puts "#{:Timmy} is young"
+puts "#{:John} is old"
+puts "#{:Steve} is old"
+
+puts " "
+
+puts "Last two colours in fav colours array are: #{fav_colours[-1]} and #{fav_colours[-2]}"
+
+puts " "
+
+puts "ages before adding 1:"
+print ages
+puts " "
+
+new_ages = []
+
+ages.each do |item|
+  new_ages.push(item+=1)
+end
+
+puts "ages after adding 1:"
+print new_ages
+puts " "
+
+fav_colours.push("indigo")
+fav_colours.push("maroon")
+
+puts " "
+print fav_colours
+puts " "
+
+
+
+
+
+
+
 
 
 
