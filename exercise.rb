@@ -37,6 +37,7 @@ names = {
 }
 
 #exercise 1
+puts "--------------Exercise 1-----------------"
 print "#{ coin_flips } \n"
 print "#{ fav_colours[0] } \n"
 print "#{ ages.sort } \n"
@@ -45,6 +46,7 @@ print "#{ ages } \n"
 print "#{ movies[:The_Matrix] } \n"
 
 #exercise 2
+puts "--------------Exercise 2-----------------"
 puts fav_colours[-1]
 cities[:Montreal] = "2 Million"
 reverse_coin_flips = coin_flips.reverse
@@ -54,6 +56,7 @@ puts "I think #{artists[1]} is okay"
 puts "I think #{artists[2]} is awesome"
 
 #exercise 3
+puts "--------------Exercise 3-----------------"
 puts artists[0]
 puts artists[1]
 puts "They Live came out in #{ movies[:They_Live] }"
@@ -68,6 +71,7 @@ print movies[:Beauty_and_the_beast][0]
 print "\n"
  
 #exercise 4
+puts "--------------Exercise 4-----------------"
 print "ages less than 30 are: "
 ages.each do |v|
   if v<30
