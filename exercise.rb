@@ -237,6 +237,41 @@ puts " "
 puts "notIslands array"
 pp notIslands
 
+puts " "
+puts "--------------Exercise 7-----------------"
+puts " "
+
+
+def sumOfExpenses(arg)
+
+  total = 0
+
+  arg.each do |item|
+    total = total + item
+  end
+
+  return total
+
+end
+
+expenses = [ 250 , 7.95 , 30.95 , 16.50 ]
+expenses2 = [ 125 , 875 , 412 , 214 , 12 ]
+
+puts sumOfExpenses(expenses)
+puts sumOfExpenses(expenses2)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
