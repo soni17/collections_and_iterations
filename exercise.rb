@@ -67,10 +67,32 @@ movies[:Beauty_and_the_beast] = years=[1991,2017]
 print movies[:Beauty_and_the_beast][0]
 print "\n"
  
+#exercise 4
+print "ages less than 30 are: "
+ages.each do |v|
+  if v<30
+    print "#{v} "
+  end
+end
+print "\n"
+
+print "the oldest person in the ages array is #{ages.max} \n"
+
+counter = 0
+coin_flips.each do |val|
+
+  if val == "heads"
+    counter=counter +1
+  end
+
+end
+puts "flipped heads #{counter} times"
 
 
+artists.delete_at(1)
 
 
+cities[:Rome] = "5 Million"
 
 
 
