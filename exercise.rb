@@ -261,6 +261,68 @@ puts sumOfExpenses(expenses)
 puts sumOfExpenses(expenses2)
 
 
+puts " "
+puts "--------------Exercise 8-----------------"
+puts " "
+
+def displayArr(arg)
+
+  arg.each do |item|
+    puts "* #{item}"
+  end
+  
+  puts " "
+
+end
+
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+
+displayArr(grocery_list)
+
+grocery_list.push("rice")
+
+displayArr(grocery_list)
+
+puts "Total number of items in list is: #{grocery_list.length}"
+
+
+
+ban = false
+
+grocery_list.each do |item|
+
+  if (item == "bananas")
+    ban = true 
+  end
+
+end
+  
+if (ban)
+  puts "You need to pick up bananas"
+else 
+  puts "you don't need to pick up bananas"
+end
+
+
+puts "second item in the array is #{grocery_list[1]}"
+
+puts " "
+sortedList = grocery_list.sort
+puts "list has been sorted"
+displayArr(sortedList)
+
+
+sortedList.delete_at(3)
+puts "salmon has been deleted from list. Here's the list one more time."
+displayArr(sortedList)
+
+
+
+
+
+
+
+
 
 
 
